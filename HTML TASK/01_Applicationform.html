@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <h1>Application Form</h1>
+    <hr>
+   <form>
+     <label for="name">Name :</label>
+    <input type="text" name="name" id="name" required placeholder="Enter your Name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required placeholder="Enter Your email"><br><br>
+    <label for="">Gender:</label>
+    <input type="radio" name="gender" value="male" id="male" >
+    <label for="male">Male</label>
+    <input type="radio" name="gender" value="female" id="female">
+    <label for="female">Female</label>
+    <p>CHOOSE YOUR SKILLS</p>
+    <input type="checkbox" name="html" id="html">
+    <label for="html">HTML</label>
+    <input type="checkbox" name="css" id="css">
+    <label for="css">CSS</label>
+    <input type="checkbox" name="js" id="js">
+    <label for="js">JS</label>
+    <input type="checkbox" name="bootstrap" id="bootstrap">
+    <label for="bootstrap">Bootstrap</label>
+    <input type="checkbox" name="react" id="react">
+    <label for="react">REACT</label><br><br>
+     <label for="">JOB TYPE :</label>
+     <select name="jobtype" id="jobtype">
+        <option value="frontend">FRONT-END DEVLOPER</option>
+        <option value="backend">BACKEND DEVLOPER</option>
+        <option value="fullstack">FULL-STACK DEVLOPER</option>
+     </select>
+     <P>choose your browser from the list:</P>
+     <input type="text" name="browser"><br><br>
+     <textarea name="about" id="about" cols="30" rows="5" placeholder="Give a breif Summary About You"></textarea><br><br>
+     <input type="submit" value="Submit" >
+
+    </form>
+
+</body>
+</html>

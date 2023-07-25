@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Sen:wght@400;700&display=swap');
+
+.container{
+    background-color: #461959;
+    position: relative;
+    color: white;
+}
+.container header{
+    background-color: #CD6688;
+    font-family: 'Sen', sans-serif;
+    font-weight: 500;
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.logo{
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+header nav ul{
+    margin-top: 10px;
+}
+
+nav ul li{
+    margin-right: 5px;
+
+}
+
+nav ul li a{
+       text-decoration: none;
+       padding: 5px 10px;
+}
+
+
+
+.cards{
+
+    padding: 20px ;
+}
+
+.card1{
+    border: 1px solid black;
+    margin: 5px 10px; 
+    border-radius: 8px;
+    
+}
+.card2{
+    border: 1px solid black;
+    margin: 5px 10px;
+    border-radius: 8px;
+    
+}
+.card3{
+    border: 1px solid black;
+    margin: 5px 10px;
+    border-radius: 8px;
+    
+
+}
+
+.hover:hover{
+    background-color: #AED8CC;
+    color: black;
+    transition: 0.2s background-color linear;
+}
+nav li a:hover{
+    background-color: #461959;
+    color: white;
+    border-radius: 20px;
+}
+
+.about{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #CD6688;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #AED8CC;
+}
+
+::selection{
+    background-color: #000000;
+    color: rgb(255, 249, 249);
+
+}
+
+.testimonial{
+    border: 2px solid #CD6688;
+    padding: 10px;
+}
+
+.testimonial h3{
+    padding: 10px;
+}
+
+.testi{
+    border: 2px solid #CD6688;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+}
+
+.testi:hover{
+    border: 2px solid #AED8CC;
+    box-shadow: 1px 1px 5px 5px #AED8CC;
+}
+
+#contactus{
+    margin: 50px auto;
+    border: 2px solid #CD6688;
+    border-radius: 10px;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+    width: 80%;
+    height: 380px;
+}
+
+
+
+input[type='text']{
+    width: 100%;
+    outline: none;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+input[type='email']{
+    width: 100%;
+    outline: none;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;   
+}
+
+input[type='date']{
+    width: 100%;
+    outline: none;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;      
+}
+
+button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+}
+
+.sociallinks ul li a{
+    padding: 5px 15px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 2em;
+    color: white;
+}
+
+.sociallinks ul li a:hover{
+    border-radius: 10px;
+    border: 2px solid #AED8CC;
+}
+
+.sociallinks ul li a:active{
+
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid #CD6688;
+}
